@@ -8,12 +8,17 @@ header {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    background-color:  #1f2a38; ;
+    background-color:  #11171e; ;
+    height: 70px;
 }
 
-header h1 {
+.test {
     font-size: 24px;
     color: rgb(214, 214, 214);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
     
 }
 
@@ -26,3 +31,51 @@ nav {
     display: flex;
     gap: 11px;
 }
+
+.first-section {
+    background-color: #1f2a38;
+    display: flex;
+    padding: 100px 120px;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+    
+   
+    
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column; 
+    max-width: 500px; 
+}
+.awesome-site {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin:0;
+}
+.first-sec-p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.warhammer-image {
+    
+    width: 600px;
+    height: 270px;
+    
+}
+.sign-up-button {
+    width: 130px;
+    height: 40px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
